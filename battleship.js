@@ -35,8 +35,19 @@ var model = {
 		view.displayMiss(guess);
 		view.displayMessage("You missed.");
 		return false;
+    },
+    
+    isSunk: function(ship) {
+		for (var i = 0; i < this.shipLength; i++)  {
+			if (ship.hits[i] !== "hit") {
+				return false;
+			}
+		}
+	    return true;
 	},
+
 };
+
 var view = {
 	displayMessage: function(msg) {
 		var messageArea = document.getElementById("messageArea");
