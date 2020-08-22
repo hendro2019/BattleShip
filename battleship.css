@@ -14,6 +14,12 @@ div#board {
 	margin: auto;
 	background: url("board.jpg") no-repeat;
 }
+.hit {
+	background: url("ship.png") no-repeat center center;
+}
+.miss {
+	background: url("miss.png") no-repeat center center;
+}
 table {
 	border-spacing: 0px; 
 	position: absolute;
