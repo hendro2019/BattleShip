@@ -185,4 +185,5 @@ function init() {
 	var guessInput = document.getElementById("guessInput");
 	guessInput.onkeypress = handleKeyPress;
 
+	model.generateShipLocations();
 }
