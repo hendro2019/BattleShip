@@ -102,3 +102,16 @@ function parseGuess(guess) {
 	}
 	return null;
 }
+
+window.onload = init;
+
+function init() {
+	// Fire! button onclick handler
+	var fireButton = document.getElementById("fireButton");
+	fireButton.onclick = handleFireButton;
+
+	// handle "return" key press
+	var guessInput = document.getElementById("guessInput");
+	guessInput.onkeypress = handleKeyPress;
+
+}
