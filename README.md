@@ -9,7 +9,7 @@ This repo contains an application that simulates the popular board game battle s
 <ul>
   <li> This was a simple practice project to learn some JavaScript basics.</li>
   <li> The HTML makes use of Table elements and the CSS utilizes absolute and relative positioning.</li>
-  <li> The program implements simple object oriented programming using classes. It uses 3 main objects classes to build the application. The first class is named model, it maintains the state of the game, board positions, and ship generation. The second class is aptly named view, it interacts with the HTML via the getElementById() and setAttribute() functions and is used to generate the players view. Lastly, we have the controller class, it serves as the interface between the model and view by using event handlers to react to user input.</li>
+  <li> The program implements simple object oriented programming using classes. It uses 3 main class objects to build the application. The first class is named model, it maintains the state of the game, board positions, and ship generation. The second class is aptly named view, it interacts with the HTML via the getElementById() and setAttribute() functions and is used to generate the players view. Lastly, we have the controller class, it serves as the interface between the model and view by using event handlers to react to user input.</li>
   <li>Technologeis used.
     <ul>
       <li>JavaScript</li>
