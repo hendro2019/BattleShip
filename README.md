@@ -1,5 +1,5 @@
 # BattleShip
-An application to simulate the popular board game battle ship. Built with JavaScript, HTML, and CSS as instructed in Head Frist HTML and CSS.
+This repo contains an application that simulates the popular board game battle ship. The applicaation is built with JavaScript, HTML, and CSS. You can play the game live via the Netlify link below. Enter your guess in the lower right hand corner, and that grid space will display either HIT or MISS depending on your choice.  
 
 # Play live 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f904e25a-4c5b-46c4-9379-28789ecb314a/deploy-status)](https://app.netlify.com/sites/naughty-swanson-ef2f3e/deploys)
